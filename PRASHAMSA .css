@@ -5,7 +5,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    background-size: 100%;
+    background-size:100%;
     font-family:Georgia, 'Times New Roman', Times, serif;
     text-align: left;
     font-size: medium;
@@ -18,7 +18,7 @@ body {
 
 
 
-  background-size: 60px 60px, 80px 80px, cover; cover;
+  background-size: 60px 60px, 80px 80px, cover;
    width:93%;
    height:100%
     margin:0 ;

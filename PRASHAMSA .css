@@ -54,7 +54,7 @@ body {
 }
 .profile-photo {
     animation: float 3s ease-in-out infinite;
-    height: 230px;     
+    height: 170px;     
 
     object-fit: cover;
     border-radius: 12px;

@@ -36,10 +36,10 @@ body {
     box-shadow:0 0 20px #00FFD1;
     
     .profile-photo {
-    position: absolute;
+    position:static;
     top: 30px;
     right: 40px;
-
+    height:auto;
     width: 180px;      @keyframes float {
     0% {
         transform: translateY(0px);

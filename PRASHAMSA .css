@@ -35,12 +35,7 @@ body {
 
     box-shadow:0 0 20px #00FFD1;
     
-    .profile-photo {
-    position: static;
-    top: 30px;
-    right: 40px;
-    height:auto;
-    width: 180px;      @keyframes float {
+     @keyframes float {
     0% {
         transform: translateY(0px);
     }
@@ -52,16 +47,18 @@ body {
     }
 }
 }
-.profile-photo {
-    animation: float 3s ease-in-out infinite;
-    height: 140px;     
-
+profile-photo {
+    width: 140px;
+    height: 140px;
     object-fit: cover;
-    border-radius: 12px;
+    display: block;
+    margin: 20px auto;
 
+    border-radius: 12px;
     border: 3px solid white;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
 
+    animation: float 3s ease-in-out infinite;
     transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 .profile-photo:hover {

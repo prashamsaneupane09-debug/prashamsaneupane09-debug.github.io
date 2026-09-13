@@ -48,9 +48,9 @@ body {
 }
 }
 profile-photo {
-    width: 30px;
-    height: 45px;
-    object-fit: cover;
+    width: 70px;
+    height: 90px;
+    object-fit: contain;
     display: block;
     margin: 10px auto;
 

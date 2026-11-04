@@ -522,6 +522,34 @@ footer {
 
         top: auto;
         right: auto;
+        .read-btn {
+    display: inline-block;
+    padding: 12px 28px;
+    margin-top: 15px;
+
+    color: #001f1c;
+    background: #00FFD1;
+
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: bold;
+
+    border: 2px solid #00FFD1;
+    border-radius: 25px;
+
+    box-shadow: 0 0 12px rgba(0, 255, 209, 0.6);
+    transition: all 0.3s ease;
+}
+
+.read-btn:hover {
+    background: #ffffff;
+    color: #006b5b;
+    border-color: #ffffff;
+
+    box-shadow: 0 0 20px rgba(0, 255, 209, 0.9);
+    transform: translateY(-3px);
+}
 
         width: 200px;
         height: 150px;

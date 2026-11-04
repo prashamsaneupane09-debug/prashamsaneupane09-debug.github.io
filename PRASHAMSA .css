@@ -36,21 +36,23 @@ h1 {
    PROFILE PHOTO
    ========================================================= */
 
+.profile-container {
+    position: absolute;
+    top: 35px;
+    right: 45px;
+    z-index: 10;
+}
+
 .profile-photo {
-    width: 40px;
-    height: 55px;
-
-    object-fit: contain;
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+    object-position: center;
     display: block;
-
-    margin: 10px auto;
-
-    border-radius: 6px;
-    border: 1px solid white;
-
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
-
-    animation: float 3s ease-in-out infinite;
+    border: 2px solid #00FFD1;
+    border-radius: 5px;
+    box-shadow: 0 0 12px rgba(0, 255, 209, 0.35);
+   animation: float 3s ease-in-out infinite;
 }
 
 .profile-photo:hover {

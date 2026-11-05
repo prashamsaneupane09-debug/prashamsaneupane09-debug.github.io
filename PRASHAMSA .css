@@ -44,14 +44,17 @@ h1 {
 }
 
 .profile-photo {
-    width: 150px;
-    height: 180px;
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    width: 100px;
+    height: 120px;
     object-fit: cover;
-    object-position: center;
-    display: block;
-    border: 2px solid #00FFD1;
-    border-radius: 5px;
-    box-shadow: 0 0 12px rgba(0, 255, 209, 0.35);
+    object-position: center top;
+    border: 2px solid #00eaff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #00eaff;
+    z-index: 5;
    animation: float 3s ease-in-out infinite;
 }
 

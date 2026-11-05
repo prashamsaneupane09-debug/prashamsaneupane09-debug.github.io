@@ -58,13 +58,6 @@ h1 {
    animation: float 3s ease-in-out infinite;
 }
 
-.profile-photo:hover {
-    transform: scale(1.08);
-
-    box-shadow:
-        0 15px 35px rgba(0, 0, 0, 0.6);
-}
-
 
 /* =========================================================
    PROFILE PHOTO FLOAT ANIMATION

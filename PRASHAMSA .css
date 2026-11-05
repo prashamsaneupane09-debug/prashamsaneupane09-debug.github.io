@@ -35,49 +35,44 @@ h1 {
 /* =========================================================
    PROFILE PHOTO
    ========================================================= */
+/* PROFILE PHOTO */
 
 .profile-container {
     position: absolute;
     top: 35px;
     right: 45px;
-    z-index: 10;
+    width: 140px;
+    height: 175px;
+    z-index: 100;
 }
 
 .profile-photo {
-    position: absolute;
-    top: 25px;
-    right: 30px;
-    width: 100px;
-    height: 120px;
+    display: block;
+    width: 140px !important;
+    height: 175px !important;
+    max-width: none !important;
     object-fit: cover;
     object-position: center top;
+
     border: 2px solid #00eaff;
     border-radius: 8px;
     box-shadow: 0 0 10px #00eaff;
-    z-index: 5;
-   animation: float 3s ease-in-out infinite;
+
+    animation: float 3s ease-in-out infinite;
 }
-
-
-/* =========================================================
-   PROFILE PHOTO FLOAT ANIMATION
-   ========================================================= */
 
 @keyframes float {
-
     0% {
-        transform: translateY(0px);
+        transform: translateY(0);
     }
-
     50% {
-        transform: translateY(-8px);
+        transform: translateY(-5px);
     }
-
     100% {
-        transform: translateY(0px);
+        transform: translateY(0);
     }
-
 }
+
 
 
 /* =========================================================

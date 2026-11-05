@@ -526,7 +526,7 @@ footer {
         position: relative;
 
         top: auto;
-        right: auto;
+        right: auto;}
         .read-btn {
     display: inline-block;
     padding: 12px 28px;
@@ -554,13 +554,13 @@ footer {
 
     box-shadow: 0 0 20px rgba(0, 255, 209, 0.9);
     transform: translateY(-3px);
-}
+
 
         width: 200px;
         height: 150px;
 
         margin: 20px auto;
-    
+}
     /* =================================
    FORMAL RESEARCH PORTFOLIO TYPOGRAPHY
    ================================= */
